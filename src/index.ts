@@ -1,1 +1,1 @@
-export { getPlugin } from './plugin.js'
+export { getPlugin } from './plugin'
