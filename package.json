@@ -1,0 +1,33 @@
+{
+  "name": "bugsnag-vite-plugin",
+  "version": "1.0.0",
+  "description": "A Vite plugin for integrating Bugsnag",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "ci": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "bugsnag"
+  ],
+  "author": "David Ferreira <mrjdavidfg@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jdavidferreira/bugsnag-vite-plugin",
+  "bugs": {
+    "url": "https://github.com/jdavidferreira/bugsnag-vite-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdavidferreira/bugsnag-vite-plugin.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
