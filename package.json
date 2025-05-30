@@ -1,7 +1,7 @@
 {
-  "name": "bugsnag-vite-plugin",
+  "name": "vite-plugin-bugsnag-build",
   "version": "1.0.1",
-  "description": "A Vite plugin for integrating Bugsnag",
+  "description": "A Vite plugin for integrating Bugsnag in the build process.",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -17,19 +17,18 @@
     "prepublishOnly": "npm run ci"
   },
   "keywords": [
-    "vite",
-    "plugin",
+    "vite-plugin",
     "bugsnag"
   ],
   "author": "David Ferreira <mrjdavidfg@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/jdavidferreira/bugsnag-vite-plugin",
+  "homepage": "https://github.com/jdavidferreira/vite-plugin-bugsnag-build",
   "bugs": {
-    "url": "https://github.com/jdavidferreira/bugsnag-vite-plugin/issues"
+    "url": "https://github.com/jdavidferreira/vite-plugin-bugsnag-build/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdavidferreira/bugsnag-vite-plugin.git"
+    "url": "git+https://github.com/jdavidferreira/vite-plugin-bugsnag-build.git"
   },
   "files": [
     "dist"
